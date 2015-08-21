@@ -1,0 +1,65 @@
+body{
+    background: #FDF9F3;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+html {
+    height:100%;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.wrap {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title-bar{
+    flex-basis:5%;
+}
+
+.main {
+    margin: 10px 10px;
+    flex: 2;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding:5px
+}
+
+.visualizations{
+    flex-basis: 75%;
+    margin: 5px;
+    height: calc(100vh - 7.5vh - 35px);
+    overflow-y: auto;
+}
+
+.viz-card{
+    margin: 0 5px 15px 5px;
+}
+
+.sidebar{
+    flex-direction: column;
+    flex-basis: 25%;
+    margin: 5px;
+}
+
+.search-bar{
+    margin-bottom:5px;
+    height: 48px
+}
+
+.person-list{
+    margin: 5px 0;
+    height: calc(100vh - 7.5vh - 35px - 48px);
+    overflow-y: auto;
+}
+
+.person-card{
+    height:7.5vh;
+    margin: 5px 5px;
+}
+
+
